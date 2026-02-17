@@ -4,46 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste</title>
+
     <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        a {
-            color: red;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:visited{
-            color: darkgreen;
-        }
-
-        a:hover{
-            text-decoration: underline red;
-            color: blue;
-        }
-
-        a:active{
-            color: yellow;
+        a::before{
+            content:"➢";
         }
 
         a::after{
-            content: '[link]';
-            color: blue;
-            text-decoration: none;
-            font-weight: normal;
+            content: "⇐";
         }
-        
-    
-    </style>
-</head>
-<body>
-   <h1>personalizando links</h1> 
-   <ul>
-    <li><a href="https://gustavoguanabara.github.io">repositirio github</a></li>
-    <li><a href="https://www.youtube.com/">youtube</a></li>
 
-   </ul>
+    </style>
+    
+<body>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io">repositorio Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do curso em video</a></li>
+    </ul>
 </body>
 </html>
